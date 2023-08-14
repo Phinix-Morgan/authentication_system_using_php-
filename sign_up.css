@@ -54,7 +54,7 @@ input.login {
     bottom: 25px;
 }
 input.sign_up {
-    width: 150px;
+    width: 115px;
     margin-top: 20px;
     border-radius: 10px;
     height: 40px;
@@ -64,10 +64,10 @@ input.sign_up {
     left: 150px;
     top: 15px;
 }
+
 body {
     background-color:rgb(200,223,234);
 }
-
 
 /*responsive design  */
 
