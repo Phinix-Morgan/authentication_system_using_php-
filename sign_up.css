@@ -67,3 +67,42 @@ input.sign_up {
 body {
     background-color:rgb(200,223,234);
 }
+
+
+/*responsive design  */
+
+/*large  and small screen laptops */
+@media screen and (max-width: 1200px) {
+    .place{
+        position:relative;
+        left:400px
+    }
+    input.sign_up {
+        background-color:red;
+    }
+    img{
+        width:400px;
+        position:relative;
+        left:10px;
+        margin-top:70px
+    }
+}
+
+/*smartphones and tablets */
+@media screen and (max-width: 768px) {
+ input.sign_up {
+        background-color:green;
+    }
+    img{
+        position:relative;
+        top:100px;
+        width:370px;
+    }
+    .place{
+       position:relative;
+        left:40px;
+    }
+    input.login {
+        background-color:royalblue;
+    }
+}
